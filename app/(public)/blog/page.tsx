@@ -1,4 +1,4 @@
-import PageWrapper from "@/ui/shared/page-wrapper/page-wrapper"
+import { PageWrapper } from "@/ui/shared/page-wrapper"
 import { Typography } from "@/ui/core/Typography"
 import Script from "next/script"
 import { PageSchema } from "@/constants/mocks"

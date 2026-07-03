@@ -3,7 +3,7 @@ import React from "react"
 import { Button } from "@/ui/core/Button"
 import { Typography } from "@/ui/core/Typography"
 
-const AnalysisButton = () => {
+export const AnalysisButton = () => {
     return (
         <Link href={"/#tariffs"} className="flex w-full md:max-w-[250px] z-10">
             <Button componentType={"accent"} size="large">
@@ -14,5 +14,3 @@ const AnalysisButton = () => {
         </Link>
     )
 }
-
-export default AnalysisButton

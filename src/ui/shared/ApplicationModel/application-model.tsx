@@ -5,7 +5,7 @@ import { useApplicationModel } from "@/context/application-model-context"
 import Application from "@/ui/feature/home/Application"
 import { useBodyLock } from "@/hooks/useBodyLockScroll"
 
-function ApplicationModel() {
+export function ApplicationModel() {
     const { openApplicationModel, setOpenApplicationModel } = useApplicationModel()
 
     useBodyLock(openApplicationModel)
@@ -36,5 +36,3 @@ function ApplicationModel() {
         </>
     )
 }
-
-export default ApplicationModel

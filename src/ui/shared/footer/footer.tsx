@@ -6,10 +6,10 @@ import header_logo from "@/public/header/header_logo.svg"
 
 import { Typography } from "@/ui/core/Typography"
 import { links, rightLinks, socialLinks } from "@/constants/mocks"
-import LinksGroup from "./links-group"
-import PageWrapper from "@/ui/shared/page-wrapper/page-wrapper"
+import { LinksGroup } from "./links-group"
+import { PageWrapper } from "@/ui/shared/page-wrapper"
 
-const Footer = () => (
+export const Footer = () => (
     <footer className="w-full relative z-10 block justify-center bg-white py-10 border-t border-PrimaryBlack/10">
         <PageWrapper>
             <Link href="/public" className="inline-flex">
@@ -55,5 +55,3 @@ const Footer = () => (
         </PageWrapper>
     </footer>
 )
-
-export default Footer

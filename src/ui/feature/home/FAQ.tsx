@@ -1,8 +1,8 @@
 import { faqData } from "@/constants/mocks"
-import AskQuestion from "@/ui/shared/faq/AskQuestion"
-import AccordionItem from "@/ui/shared/faq/AccordionItem"
-import PageWrapper from "@/ui/shared/page-wrapper/page-wrapper"
-import CreateApplicationBlock from "@/ui/shared/CreateApplicationBlock"
+import { AskQuestion } from "@/ui/shared/faq"
+import { AccordionItem } from "@/ui/shared/faq"
+import { PageWrapper } from "@/ui/shared/page-wrapper"
+import { CreateApplicationBlock } from "@/ui/shared/CreateApplicationBlock"
 
 const FAQ = () => {
     return (

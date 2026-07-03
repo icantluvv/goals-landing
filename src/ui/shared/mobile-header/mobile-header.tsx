@@ -3,7 +3,7 @@
 import { useMobileHeaderStore } from "@/store/mobileHeaderStore"
 import { useBodyLock } from "@/hooks/useBodyLockScroll"
 import { Button } from "@/ui/core/Button"
-import MobileNavigation from "@/ui/shared/mobile-header/MobileNavigation"
+import { MobileNavigation } from "@/ui/shared/mobile-header/mobile-navigation"
 
 const navLinks = [
     { id: "/", label: "Главная" },
@@ -14,7 +14,7 @@ const navLinks = [
     { id: "/blog", label: "Блог" }
 ]
 
-const MobileHeader = () => {
+export const MobileHeader = () => {
     const openHeader = useMobileHeaderStore((state) => state.openHeader)
     const setOpenHeader = useMobileHeaderStore((state) => state.setOpenHeader)
 
@@ -60,5 +60,3 @@ const MobileHeader = () => {
         </>
     )
 }
-
-export default MobileHeader

@@ -3,7 +3,7 @@
 import React from "react"
 import { useApplicationModel } from "@/context/application-model-context"
 
-const TryButton = () => {
+export const TryButton = () => {
     const { setOpenApplicationModel } = useApplicationModel()
 
     function handleOpenApplicationModal() {
@@ -18,4 +18,3 @@ const TryButton = () => {
         </button>
     )
 }
-export default TryButton

@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 
-function BackgroundCircles() {
+export function BackgroundCircles() {
     return (
         <>
             <motion.div
@@ -41,5 +41,3 @@ function BackgroundCircles() {
         </>
     )
 }
-
-export default BackgroundCircles

@@ -10,7 +10,7 @@ import { Button } from "@/ui/core/Button"
 import { Input } from "@/ui/core/Input"
 import { Typography } from "@/ui/core/Typography"
 
-const MessageModal = () => {
+export const MessageModal = () => {
     const { openMessageModal, setMessageModalOpen } = useMessageModalStore()
     const { addModal } = useApplicationErrorModalStore()
     useBodyLock(openMessageModal)
@@ -120,5 +120,3 @@ const MessageModal = () => {
         </div>
     )
 }
-
-export default MessageModal

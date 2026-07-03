@@ -5,7 +5,7 @@ type PageWrapperProps = {
     scroll?: boolean
 }
 
-function PageWrapper({ children, scroll }: PageWrapperProps) {
+export function PageWrapper({ children, scroll }: PageWrapperProps) {
     return (
         <div
             className={`w-full flex justify-center ${scroll ? "p-0 lg:px-8 xl:px-16" : "px-4 md:px-8 xl:px-16"}`}
@@ -14,5 +14,3 @@ function PageWrapper({ children, scroll }: PageWrapperProps) {
         </div>
     )
 }
-
-export default PageWrapper

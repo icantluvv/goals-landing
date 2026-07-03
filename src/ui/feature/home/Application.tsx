@@ -1,8 +1,8 @@
 "use client"
 import { Typography } from "@/ui/core/Typography"
-import ApplicationRequestErrorModal from "@/ui/shared/modals/ApplicationRequestErrorModal"
-import ApplicationInputs from "@/ui/shared/request/ApplicationInputs"
-import PageWrapper from "@/ui/shared/page-wrapper/page-wrapper"
+import { ApplicationRequestErrorModal } from "@/ui/shared/modals"
+import { ApplicationInputs } from "@/ui/shared/request"
+import { PageWrapper } from "@/ui/shared/page-wrapper"
 
 function Application() {
     return (

@@ -1,6 +1,6 @@
 import { Typography } from "@/ui/core/Typography"
-import Tariff from "@/ui/shared/tariffs/Tariff"
-import PageWrapper from "@/ui/shared/page-wrapper/page-wrapper"
+import { Tariff } from "@/ui/shared/tariffs"
+import { PageWrapper } from "@/ui/shared/page-wrapper"
 
 import { tariffs } from "@/constants/mocks"
 

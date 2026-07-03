@@ -1,7 +1,7 @@
 import { Typography } from "@/ui/core/Typography"
-import TariffFeature from "./TariffFeature"
+import { TariffFeature } from "./tariff-feature"
 import Image from "next/image"
-import BuyButton from "@/ui/shared/tariffs/buy-button"
+import { BuyButton } from "@/ui/shared/tariffs/buy-button"
 
 type Tariff = {
     id: number
@@ -17,7 +17,7 @@ type TariffProps = {
     tariff: Tariff
 }
 
-const Tariff = ({ tariff }: TariffProps) => {
+export const Tariff = ({ tariff }: TariffProps) => {
     return (
         <li
             key={tariff.id}
@@ -61,5 +61,3 @@ const Tariff = ({ tariff }: TariffProps) => {
         </li>
     )
 }
-
-export default Tariff

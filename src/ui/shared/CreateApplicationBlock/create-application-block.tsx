@@ -5,7 +5,7 @@ import { useApplicationModel } from "@/context/application-model-context"
 import { Button } from "@/ui/core/Button"
 import { Typography } from "@/ui/core/Typography"
 
-function CreateApplicationBlock() {
+export function CreateApplicationBlock() {
     const { setOpenApplicationModel } = useApplicationModel()
 
     const handleClick = () => {
@@ -21,5 +21,3 @@ function CreateApplicationBlock() {
         </section>
     )
 }
-
-export default CreateApplicationBlock

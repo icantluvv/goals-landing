@@ -14,7 +14,7 @@ type LinksGroupProps = {
     items: Links[]
 }
 
-const LinksGroup = ({ title, items, className }: LinksGroupProps) => (
+export const LinksGroup = ({ title, items, className }: LinksGroupProps) => (
     <div className={clsx("flex flex-col gap-6", className)}>
         <Typography variants="div" className="font-semibold text-black text-base">
             {title}
@@ -29,5 +29,3 @@ const LinksGroup = ({ title, items, className }: LinksGroupProps) => (
         </div>
     </div>
 )
-
-export default LinksGroup

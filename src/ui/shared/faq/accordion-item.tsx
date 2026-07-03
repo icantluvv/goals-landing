@@ -5,7 +5,7 @@ import Image from "next/image"
 import hide_show from "@/public/hide_show.svg"
 import { Typography } from "@/ui/core/Typography"
 
-const AccordionItem = ({
+export const AccordionItem = ({
     id,
     question,
     answer
@@ -57,5 +57,3 @@ const AccordionItem = ({
         </li>
     )
 }
-
-export default AccordionItem

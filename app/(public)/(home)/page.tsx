@@ -7,7 +7,7 @@ import Steps from "@/ui/feature/home/Steps"
 import Solution from "@/ui/feature/home/Solution"
 import FAQ from "@/ui/feature/home/FAQ"
 import FirstSection from "@/ui/feature/home/FirstSection"
-import Slider from "@/ui/shared/slider"
+import { Slider } from "@/ui/shared/slider"
 
 export const metadata: Metadata = { ...getStaticMeta("/") }
 

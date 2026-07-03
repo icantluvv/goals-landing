@@ -6,7 +6,7 @@ import { useMessageModalStore } from "@/store/messageModalStore"
 import { Button } from "@/ui/core/Button"
 import { Typography } from "@/ui/core/Typography"
 
-const AskQuestion = () => {
+export const AskQuestion = () => {
     const { setMessageModalOpen } = useMessageModalStore()
     return (
         <div
@@ -38,5 +38,3 @@ const AskQuestion = () => {
         </div>
     )
 }
-
-export default AskQuestion

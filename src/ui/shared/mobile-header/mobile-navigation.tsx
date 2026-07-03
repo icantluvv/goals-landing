@@ -2,7 +2,7 @@ import { useMobileHeaderStore } from "@/store/mobileHeaderStore"
 import { useNavigationStateStore } from "@/store/navigationStore"
 import Link from "next/link"
 
-const MobileNavigation = ({ navLinks }: MobileNavigationProps) => {
+export const MobileNavigation = ({ navLinks }: MobileNavigationProps) => {
     const { openHeader, setOpenHeader } = useMobileHeaderStore()
     const { setChooseNavElement } = useNavigationStateStore()
 
@@ -26,8 +26,6 @@ const MobileNavigation = ({ navLinks }: MobileNavigationProps) => {
         </nav>
     )
 }
-
-export default MobileNavigation
 
 interface MobileNavigationProps {
     navLinks: { id: string; label: string }[]

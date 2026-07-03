@@ -11,7 +11,7 @@ import { Button } from "@/ui/core/Button"
 import { Input } from "@/ui/core/Input"
 import { Typography } from "@/ui/core/Typography"
 
-const ApplicationInputs = () => {
+export const ApplicationInputs = () => {
     const [form, setForm] = useState({
         name: "",
         email: "",
@@ -150,5 +150,3 @@ const ApplicationInputs = () => {
         </>
     )
 }
-
-export default ApplicationInputs

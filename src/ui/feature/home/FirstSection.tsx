@@ -1,8 +1,8 @@
 import Image from "next/image"
 import goals from "@/public/first/GOALS.png"
 import Link from "next/link"
-import BackgroundCircles from "@/ui/shared/hero/BackgroundCircles"
-import GradientBackground from "@/ui/shared/hero/GradientBackground"
+import { BackgroundCircles } from "@/ui/shared/hero"
+import { GradientBackground } from "@/ui/shared/hero"
 import { Button } from "@/ui/core/Button"
 import { Typography } from "@/ui/core/Typography"
 

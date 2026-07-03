@@ -7,7 +7,7 @@ import { getStaticMeta } from "@/utils/getStaticMeta"
 import { Typography } from "@/ui/core/Typography"
 import Link from "next/link"
 import RulesItem from "@/ui/feature/privacy/RulesItem"
-import PageWrapper from "@/ui/shared/page-wrapper/page-wrapper"
+import { PageWrapper } from "@/ui/shared/page-wrapper"
 
 export const metadata: Metadata = { ...getStaticMeta("/privacy") }
 

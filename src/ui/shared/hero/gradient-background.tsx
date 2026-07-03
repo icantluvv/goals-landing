@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 
-function GradientBackground() {
+export function GradientBackground() {
     return (
         <motion.div
             className="absolute inset-0 -z-10"
@@ -30,5 +30,3 @@ function GradientBackground() {
         />
     )
 }
-
-export default GradientBackground

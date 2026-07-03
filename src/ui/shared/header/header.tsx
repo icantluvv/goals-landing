@@ -1,12 +1,12 @@
 import Image from "next/image"
 
 import roundLogo from "@/public/header/round-logo.svg"
-import LinkHeader from "@/ui/shared/link-header/LinkHeader"
+import { LinkHeader } from "@/ui/shared/link-header"
 import { DefaultLink } from "@/ui/core/Link"
 import React from "react"
-import TryButton from "@/ui/shared/header/TryButton"
+import { TryButton } from "@/ui/shared/header/try-button"
 
-const Header = () => {
+export const Header = () => {
     return (
         <header className="fixed hidden top-5 w-full lg:flex justify-center gap-[24px] min-h-[80px] items-center z-10">
             <div className="flex items-center shadow-sm bg-white gap-6 w-full px-[30px] h-[75px] max-w-[850px] rounded-[20px]">
@@ -28,5 +28,3 @@ const Header = () => {
         </header>
     )
 }
-
-export default Header

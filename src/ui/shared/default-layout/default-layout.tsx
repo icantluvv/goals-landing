@@ -1,9 +1,9 @@
 import React from "react"
-import Header from "@/ui/shared/header/header"
-import Footer from "@/ui/shared/footer/footer"
-import MobileHeader from "@/ui/shared/mobile-header/MobileHeader"
+import { Header } from "@/ui/shared/header"
+import { Footer } from "@/ui/shared/footer"
+import { MobileHeader } from "@/ui/shared/mobile-header"
 
-const DefaultLayout: React.FC<React.PropsWithChildren> = ({ children }) => {
+export const DefaultLayout: React.FC<React.PropsWithChildren> = ({ children }) => {
     return (
         <div className="block relative">
             <Header />
@@ -13,5 +13,3 @@ const DefaultLayout: React.FC<React.PropsWithChildren> = ({ children }) => {
         </div>
     )
 }
-
-export default DefaultLayout

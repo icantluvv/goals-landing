@@ -7,7 +7,7 @@ type FeatureProps = {
     text: string
 }
 
-const Feature = ({ icon, title, text }: FeatureProps) => {
+export const Feature = ({ icon, title, text }: FeatureProps) => {
     return (
         <div className="flex-1 p-3 lg:p-6 md:p-4 bg-white sm:max-w-[80vw] md:max-w-auto rounded-2xl border md:max-w-[500px] lg:min-h-[307px] xl:min-h-[206px] border-[#eaeaea] text-left flex flex-col items-center lg:items-start">
             <div className="flex flex-col lg:flex-row items-center gap-[2px] mb-3">
@@ -27,5 +27,3 @@ const Feature = ({ icon, title, text }: FeatureProps) => {
         </div>
     )
 }
-
-export default Feature

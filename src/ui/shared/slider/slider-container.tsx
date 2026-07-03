@@ -2,7 +2,7 @@ import { useSlider } from "@/context/slider-context"
 import Image from "next/image"
 import { Typography } from "@/ui/core/Typography"
 
-function SliderContainer() {
+export function SliderContainer() {
     const { PictureSlides, currentSlide } = useSlider()
 
     return (
@@ -38,5 +38,3 @@ function SliderContainer() {
         </div>
     )
 }
-
-export default SliderContainer

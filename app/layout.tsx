@@ -1,10 +1,10 @@
 import "@/globals.css"
 import { inter, montserrat } from "@/public/fonts/fonts"
-import DefaultLayout from "@/ui/shared/default-layout/default-layout"
+import { DefaultLayout } from "@/ui/shared/default-layout"
 import { Metadata } from "next"
-import ApplicationModel from "@/ui/shared/ApplicationModel"
+import { ApplicationModel } from "@/ui/shared/ApplicationModel"
 import { ApplicationModelProvider } from "@/context/application-model-context"
-import MessageModal from "@/ui/shared/modals/MessageModal"
+import { MessageModal } from "@/ui/shared/modals"
 
 export const metadata: Metadata = {
     icons: {

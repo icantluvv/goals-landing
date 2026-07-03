@@ -5,7 +5,7 @@ import superjson from "superjson"
 import { PageSchema } from "@/constants/mocks"
 import { Metadata } from "next"
 import { getStaticMeta } from "@/utils/getStaticMeta"
-import PageWrapper from "@/ui/shared/page-wrapper/page-wrapper"
+import { PageWrapper } from "@/ui/shared/page-wrapper"
 import RulesItem from "@/ui/feature/privacy/RulesItem"
 
 export const metadata: Metadata = { ...getStaticMeta("/license") }

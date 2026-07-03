@@ -5,7 +5,7 @@ import { useApplicationModel } from "@/context/application-model-context"
 import { Button } from "@/ui/core/Button"
 import { Typography } from "@/ui/core/Typography"
 
-function BuyButton() {
+export function BuyButton() {
     const { setOpenApplicationModel } = useApplicationModel()
 
     function handleOpenApplicationModel() {
@@ -22,5 +22,3 @@ function BuyButton() {
         </div>
     )
 }
-
-export default BuyButton

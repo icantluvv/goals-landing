@@ -4,7 +4,7 @@ import type { Step as StepType } from "@/constants/mocks"
 
 import Image from "next/image"
 
-const Step = ({ step }: { step: StepType }) => {
+export const Step = ({ step }: { step: StepType }) => {
     return (
         <div className="w-full shadow-sm min-w-[350px] relative overflow-hidden lg:min-w-auto bg-darkBlue/5 lg:rounded-[35px] rounded-[25px] p-3 md:p-6 xl:p-12 flex flex-col gap-6 md:gap-8 xl:gap-12">
             <div className={"flex items-center justify-between "}>
@@ -33,5 +33,3 @@ const Step = ({ step }: { step: StepType }) => {
         </div>
     )
 }
-
-export default Step

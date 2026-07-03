@@ -1,4 +1,4 @@
-import PageWrapper from "@/ui/shared/page-wrapper/page-wrapper"
+import { PageWrapper } from "@/ui/shared/page-wrapper"
 import React from "react"
 import Image from "next/image"
 import { getArticleBlogApiArticlesSlugGet } from "@/packages/api/codegen"

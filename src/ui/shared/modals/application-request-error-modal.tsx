@@ -5,7 +5,7 @@ import { Typography } from "@/ui/core/Typography"
 import { useApplicationErrorModalStore } from "@/store/ApplicationErrorStore"
 import { AnimatePresence, motion } from "framer-motion"
 
-const ApplicationRequestErrorModal = () => {
+export const ApplicationRequestErrorModal = () => {
     const { modals } = useApplicationErrorModalStore()
 
     if (modals.length === 0) return null
@@ -33,5 +33,3 @@ const ApplicationRequestErrorModal = () => {
         </div>
     )
 }
-
-export default ApplicationRequestErrorModal

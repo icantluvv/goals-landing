@@ -1,13 +1,13 @@
 import Image from "next/image"
 import { Typography } from "@/ui/core/Typography"
-import AnalysisButton from "@/ui/shared/steps/AnalysisButton"
-import PageWrapper from "@/ui/shared/page-wrapper/page-wrapper"
+import { AnalysisButton } from "@/ui/shared/steps"
+import { PageWrapper } from "@/ui/shared/page-wrapper"
 
 import trend from "@/public/trend.svg"
 import like from "@/public/like.png"
 
 import { steps } from "@/constants/mocks"
-import Step from "@/ui/shared/steps/Step"
+import { Step } from "@/ui/shared/steps"
 
 const Steps = () => {
     return (
