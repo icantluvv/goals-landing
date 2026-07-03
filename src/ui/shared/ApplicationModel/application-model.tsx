@@ -1,7 +1,7 @@
 "use client"
 
 import React from "react"
-import { useApplicationModel } from "@/context/application-model-context"
+import { useApplicationModel } from "@/context"
 import Application from "@/ui/feature/home/Application"
 import { useBodyLock } from "@/hooks/useBodyLockScroll"
 

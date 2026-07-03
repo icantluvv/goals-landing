@@ -1,7 +1,7 @@
 "use client"
 
 import React from "react"
-import { useApplicationModel } from "@/context/application-model-context"
+import { useApplicationModel } from "@/context"
 
 export const TryButton = () => {
     const { setOpenApplicationModel } = useApplicationModel()

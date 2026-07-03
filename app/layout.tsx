@@ -3,7 +3,7 @@ import { inter, montserrat } from "@/public/fonts/fonts"
 import { DefaultLayout } from "@/ui/shared/default-layout"
 import { Metadata } from "next"
 import { ApplicationModel } from "@/ui/shared/ApplicationModel"
-import { ApplicationModelProvider } from "@/context/application-model-context"
+import { ApplicationModelProvider } from "@/context"
 import { MessageModal } from "@/ui/shared/modals"
 
 export const metadata: Metadata = {

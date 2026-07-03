@@ -1,4 +1,4 @@
-import { useSlider } from "@/context/slider-context"
+import { useSlider } from "@/context"
 import Image from "next/image"
 import { Typography } from "@/ui/core/Typography"
 

@@ -1,3 +1,5 @@
+"use client"
+
 import React, { createContext, ReactNode, useContext, useState } from "react"
 import { PictureSlidesType } from "@/constants/mocks"
 

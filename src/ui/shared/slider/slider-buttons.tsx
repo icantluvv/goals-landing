@@ -1,5 +1,5 @@
 import React from "react"
-import { useSlider } from "@/context/slider-context"
+import { useSlider } from "@/context"
 import clsx from "clsx"
 import Image from "next/image"
 import arrow from "@/public/arrow.svg"
