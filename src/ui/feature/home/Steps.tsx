@@ -1,5 +1,5 @@
 import Image from "next/image"
-import Typography from "@/ui/core/Typography/Typography"
+import { Typography } from "@/ui/core/Typography"
 import AnalysisButton from "@/ui/shared/steps/AnalysisButton"
 import PageWrapper from "@/ui/shared/page-wrapper/page-wrapper"
 

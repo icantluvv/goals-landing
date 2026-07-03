@@ -24,4 +24,4 @@ const MaskedInput = ({ placeholder, className, mask, value = "", onChange }: Mas
     )
 }
 
-export default MaskedInput
+export { MaskedInput }

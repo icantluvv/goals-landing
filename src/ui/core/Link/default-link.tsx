@@ -1,7 +1,7 @@
 import React from "react"
 import Link from "next/link"
 import clsx from "clsx"
-import Typography from "@/ui/core/Typography/Typography"
+import { Typography } from "@/ui/core/Typography"
 
 type DefaultLinkProps = {
     href: string
@@ -52,4 +52,4 @@ function DefaultLink({
     )
 }
 
-export default DefaultLink
+export { DefaultLink }

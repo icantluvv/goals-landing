@@ -1,5 +1,5 @@
 import PageWrapper from "@/ui/shared/page-wrapper/page-wrapper"
-import Typography from "@/ui/core/Typography/Typography"
+import { Typography } from "@/ui/core/Typography"
 import Script from "next/script"
 import { PageSchema } from "@/constants/mocks"
 import { Metadata } from "next"

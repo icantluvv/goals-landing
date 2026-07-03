@@ -3,8 +3,8 @@
 import Image from "next/image"
 import big_logo from "@/public/big_logo.svg"
 import { useMessageModalStore } from "@/store/messageModalStore"
-import Typography from "@/ui/core/Typography/Typography"
 import { Button } from "@/ui/core/Button"
+import { Typography } from "@/ui/core/Typography"
 
 const AskQuestion = () => {
     const { setMessageModalOpen } = useMessageModalStore()

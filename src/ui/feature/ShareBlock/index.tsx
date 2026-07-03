@@ -3,10 +3,10 @@
 import React, { useState } from "react"
 import { usePathname } from "next/navigation"
 import { rootURL } from "@/constants/urls"
-import Input from "@/ui/core/Input/Input"
-import { Button } from "@/ui/core/Button"
-import Typography from "@/ui/core/Typography/Typography"
 import clsx from "clsx"
+import { Button } from "@/ui/core/Button"
+import { Input } from "@/ui/core/Input"
+import { Typography } from "@/ui/core/Typography"
 
 declare global {
     interface Window {

@@ -1,6 +1,6 @@
 import React from "react"
 import Link from "next/link"
-import Typography from "@/ui/core/Typography/Typography"
+import { Typography } from "@/ui/core/Typography"
 import type { ArticleSummarySchema } from "@/packages/api/codegen"
 import Image from "next/image"
 

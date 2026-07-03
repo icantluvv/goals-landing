@@ -1,4 +1,4 @@
-import Typography from "@/ui/core/Typography/Typography"
+import { Typography } from "@/ui/core/Typography"
 import TariffFeature from "./TariffFeature"
 import Image from "next/image"
 import BuyButton from "@/ui/shared/tariffs/buy-button"

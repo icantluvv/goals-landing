@@ -1,15 +1,15 @@
 "use client"
 
 import React, { useState } from "react"
-import Input from "@/ui/core/Input/Input"
-import { Button } from "@/ui/core/Button"
-import Typography from "@/ui/core/Typography/Typography"
 import axios from "axios"
 import { useApplicationErrorModalStore } from "@/store/ApplicationErrorStore"
 import { applicationSchema } from "@/schemas/applicationSchema"
 import clsx from "clsx"
 import Link from "next/link"
 import { useApplicationModel } from "@/context/application-model-context"
+import { Button } from "@/ui/core/Button"
+import { Input } from "@/ui/core/Input"
+import { Typography } from "@/ui/core/Typography"
 
 const ApplicationInputs = () => {
     const [form, setForm] = useState({

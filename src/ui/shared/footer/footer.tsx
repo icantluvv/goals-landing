@@ -4,7 +4,7 @@ import Link from "next/link"
 import copyright from "@/public/copyright.svg"
 import header_logo from "@/public/header/header_logo.svg"
 
-import Typography from "@/ui/core/Typography/Typography"
+import { Typography } from "@/ui/core/Typography"
 import { links, rightLinks, socialLinks } from "@/constants/mocks"
 import LinksGroup from "./links-group"
 import PageWrapper from "@/ui/shared/page-wrapper/page-wrapper"

@@ -2,7 +2,7 @@ import Image from "next/image"
 
 import roundLogo from "@/public/header/round-logo.svg"
 import LinkHeader from "@/ui/shared/link-header/LinkHeader"
-import DefaultLink from "@/ui/core/Link/default-link"
+import { DefaultLink } from "@/ui/core/Link"
 import React from "react"
 import TryButton from "@/ui/shared/header/TryButton"
 

@@ -1,7 +1,7 @@
-import Typography from "@/ui/core/Typography/Typography"
 import clsx from "clsx"
 import React from "react"
-import DefaultLink from "@/ui/core/Link/default-link"
+import { DefaultLink } from "@/ui/core/Link"
+import { Typography } from "@/ui/core/Typography"
 
 type Links = {
     title: string

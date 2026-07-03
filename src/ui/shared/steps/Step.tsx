@@ -1,4 +1,4 @@
-import Typography from "@/ui/core/Typography/Typography"
+import { Typography } from "@/ui/core/Typography"
 
 import type { Step as StepType } from "@/constants/mocks"
 

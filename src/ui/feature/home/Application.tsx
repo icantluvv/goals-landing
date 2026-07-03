@@ -1,5 +1,5 @@
 "use client"
-import Typography from "@/ui/core/Typography/Typography"
+import { Typography } from "@/ui/core/Typography"
 import ApplicationRequestErrorModal from "@/ui/shared/modals/ApplicationRequestErrorModal"
 import ApplicationInputs from "@/ui/shared/request/ApplicationInputs"
 import PageWrapper from "@/ui/shared/page-wrapper/page-wrapper"

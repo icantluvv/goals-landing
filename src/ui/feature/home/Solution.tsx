@@ -1,5 +1,5 @@
 import { solutionsData } from "@/constants/mocks"
-import Typography from "@/ui/core/Typography/Typography"
+import { Typography } from "@/ui/core/Typography"
 import Feature from "@/ui/shared/solution/Feature"
 import PageWrapper from "@/ui/shared/page-wrapper/page-wrapper"
 

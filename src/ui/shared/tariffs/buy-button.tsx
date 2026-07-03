@@ -1,9 +1,9 @@
 "use client"
 
 import React from "react"
-import { Button } from "@/ui/core/Button"
-import Typography from "@/ui/core/Typography/Typography"
 import { useApplicationModel } from "@/context/application-model-context"
+import { Button } from "@/ui/core/Button"
+import { Typography } from "@/ui/core/Typography"
 
 function BuyButton() {
     const { setOpenApplicationModel } = useApplicationModel()

@@ -1,7 +1,7 @@
-import { Button } from "@/ui/core/Button"
-import Typography from "@/ui/core/Typography/Typography"
 import Link from "next/link"
 import React from "react"
+import { Button } from "@/ui/core/Button"
+import { Typography } from "@/ui/core/Typography"
 
 const AnalysisButton = () => {
     return (

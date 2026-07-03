@@ -70,4 +70,4 @@ function Typography({ children, className, variants, color, center }: Typography
     )
 }
 
-export default Typography
+export { Typography }

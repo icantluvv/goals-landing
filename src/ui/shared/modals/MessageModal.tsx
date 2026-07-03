@@ -1,14 +1,14 @@
 "use client"
 
 import { useMessageModalStore } from "@/store/messageModalStore"
-import { Button } from "@/ui/core/Button"
-import Input from "@/ui/core/Input/Input"
-import Typography from "@/ui/core/Typography/Typography"
 import { useState } from "react"
 import { messageSchema } from "@/schemas/messageSchema"
 import axios from "axios"
 import { useApplicationErrorModalStore } from "@/store/ApplicationErrorStore"
 import { useBodyLock } from "@/hooks/useBodyLockScroll"
+import { Button } from "@/ui/core/Button"
+import { Input } from "@/ui/core/Input"
+import { Typography } from "@/ui/core/Typography"
 
 const MessageModal = () => {
     const { openMessageModal, setMessageModalOpen } = useMessageModalStore()

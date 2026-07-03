@@ -1,5 +1,5 @@
 import Image from "next/image"
-import Typography from "@/ui/core/Typography/Typography"
+import { Typography } from "@/ui/core/Typography"
 
 type FeatureProps = {
     icon: string

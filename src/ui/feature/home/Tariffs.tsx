@@ -1,4 +1,4 @@
-import Typography from "@/ui/core/Typography/Typography"
+import { Typography } from "@/ui/core/Typography"
 import Tariff from "@/ui/shared/tariffs/Tariff"
 import PageWrapper from "@/ui/shared/page-wrapper/page-wrapper"
 

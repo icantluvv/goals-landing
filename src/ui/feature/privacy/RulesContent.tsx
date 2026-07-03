@@ -1,5 +1,5 @@
 import React from "react"
-import Typography from "@/ui/core/Typography/Typography"
+import { Typography } from "@/ui/core/Typography"
 import { LicenseSection } from "@/scripts/generatePrivacy"
 
 type RulesItemsProps = {

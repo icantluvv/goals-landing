@@ -1,7 +1,7 @@
 "use client"
 
 import React from "react"
-import Typography from "@/ui/core/Typography/Typography"
+import { Typography } from "@/ui/core/Typography"
 import { useApplicationErrorModalStore } from "@/store/ApplicationErrorStore"
 import { AnimatePresence, motion } from "framer-motion"
 

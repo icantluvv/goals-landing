@@ -1,7 +1,7 @@
 "use client"
 
 import { ChangeEvent, MouseEvent } from "react"
-import MaskedInput from "./MaskedInput"
+import { MaskedInput } from "./masked-input"
 import clsx from "clsx"
 
 type InputProps = {
@@ -54,4 +54,4 @@ const Input = ({
     )
 }
 
-export default Input
+export { Input }

@@ -3,7 +3,7 @@
 import { useAccordionStore } from "@/store/accordionStore"
 import Image from "next/image"
 import hide_show from "@/public/hide_show.svg"
-import Typography from "@/ui/core/Typography/Typography"
+import { Typography } from "@/ui/core/Typography"
 
 const AccordionItem = ({
     id,
