@@ -1,14 +1,12 @@
-import { Typography } from "@/ui/core/Typography"
-
 const NotFound = () => {
     return (
-        <main className="h-[100svh] bg-gradient-custom flex flex-col items-center relative overflow-hidden">
+        <main className="h-svh bg-gradient-custom flex flex-col items-center relative overflow-hidden">
             <div className="flex items-center justify-center flex-1 ">
                 <AnimatedCircles />
 
-                <Typography variants="h1" color="white" className="z-[1000] w-[80%]" center>
+                <h1 className="text-white text-h1/h1 font-bold flex w-full justify-center items-center text-center z-1000">
                     Ошибка 404: Страница не найдена
-                </Typography>
+                </h1>
             </div>
         </main>
     )

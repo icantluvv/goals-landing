@@ -8,7 +8,7 @@ export type LicenseSection = {
 }
 
 export async function extractAndParsePrivacy(): Promise<LicenseSection[]> {
-    const filePath = path.join(process.cwd(), "scripts/privacy.docx")
+    const filePath = path.join(process.cwd(), "src/scripts/goals_license.docx")
     const buffer = fs.readFileSync(filePath)
 
     const { value: rawText } = await mammoth.extractRawText({ buffer })

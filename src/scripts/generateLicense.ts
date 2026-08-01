@@ -8,7 +8,7 @@ interface LicenseSection {
 }
 
 export async function extractAndParseLicense(): Promise<LicenseSection[]> {
-    const filePath = path.join(process.cwd(), "scripts/goals_license.docx")
+    const filePath = path.join(process.cwd(), "src/scripts/goals_license.docx")
     const buffer = fs.readFileSync(filePath)
 
     const { value: rawText } = await mammoth.extractRawText({ buffer })

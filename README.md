@@ -1,6 +1,7 @@
 # Goals — Landing Page
 
-> Official landing page for **Goals**, a customer loyalty & marketing platform built for restaurants and local businesses.
+> Official landing page for **Goals**, a customer loyalty & marketing platform built for restaurants and local
+> businesses.
 
 ---
 
@@ -10,7 +11,7 @@
 - **Solution overview** — three key benefits: marketing, analytics, and loyalty in one place
 - **Onboarding steps** — visual 4-step guide to getting started
 - **Pricing tiers** — three plan cards with feature breakdowns
-- **FAQ** — accordion-style frequently asked questions
+- **Faq** — accordion-style frequently asked questions
 - **Blog** — dynamically fetched articles with individual pages and tag filtering
 - **Application forms** — phone, email, full name, and INN validation with input masking
 - **Email delivery** — form submissions sent via Nodemailer (Yandex SMTP)
@@ -78,7 +79,7 @@ app/
 src/
   ui/
     core/         # Base UI components (Button, Input, Typography…)
-    feature/      # Domain components (Tariffs, FAQ, ApplicationForm…)
+    feature/      # Domain components (Tariffs, Faq, ApplicationForm…)
     shared/       # Layout components (Header, Footer, Modals…)
   constants/      # Static data and mock content
   context/        # React context providers

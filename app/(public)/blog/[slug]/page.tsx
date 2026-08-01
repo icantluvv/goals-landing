@@ -1,11 +1,12 @@
-import { PageWrapper } from "@/ui/shared/page-wrapper"
+import { PageWrapper } from "@/components/shared/PageWrapper"
 import React from "react"
 import Image from "next/image"
+import { notFound } from "next/navigation"
 import { getArticleBlogApiArticlesSlugGet } from "@/packages/api/codegen"
 
 import parse from "html-react-parser"
 import { sanitizeHtmlContent } from "@/utils/sanitizeHtmlContent"
-import ShareBlock from "@/ui/feature/ShareBlock"
+import { ShareBlock } from "@/components/shared/ShareBlock/share-block.tsx"
 
 interface PageProps {
     params: Promise<{ slug: string }>
@@ -13,7 +14,10 @@ interface PageProps {
 
 export default async function ArticlePage({ params }: PageProps) {
     const { slug } = await params
-    const article = await getArticleBlogApiArticlesSlugGet(slug)
+    const article = await getArticleBlogApiArticlesSlugGet(slug).catch(() => null)
+
+    if (!article) notFound()
+
     const sanitizedContent = sanitizeHtmlContent(article.content_html)
 
     return (

@@ -1,10 +1,12 @@
 import "@/globals.css"
-import { inter, montserrat } from "@/public/fonts/fonts"
-import { DefaultLayout } from "@/ui/shared/default-layout"
+import { montserrat } from "@/public/fonts/fonts"
 import { Metadata } from "next"
-import { ApplicationModel } from "@/ui/shared/ApplicationModel"
-import { ApplicationModelProvider } from "@/context"
-import { MessageModal } from "@/ui/shared/modals"
+import { cn } from "@/utils/cn.ts"
+import { Header } from "@/components/shared/Header"
+import { MobileHeader } from "@/components/shared/MobileHeader"
+import React from "react"
+import { Footer } from "@/components/shared/Footer"
+import { Toaster } from "@/components/ui/Toast/toast.tsx"
 
 export const metadata: Metadata = {
     icons: {
@@ -20,13 +22,15 @@ export default function RootLayout({
     children: React.ReactNode
 }>) {
     return (
-        <html lang="ru" className={`${inter.variable} ${montserrat.variable} `}>
+        <html lang="ru" className={cn(montserrat.variable, "font-sans")}>
             <body>
-                <ApplicationModelProvider>
-                    <DefaultLayout>{children}</DefaultLayout>
-                    <ApplicationModel />
-                    <MessageModal />
-                </ApplicationModelProvider>
+                <div className="block relative">
+                    <Header />
+                    <MobileHeader />
+                    <main className="w-full min-h-svh">{children}</main>
+                    <Footer />
+                </div>
+                <Toaster />
             </body>
         </html>
     )
